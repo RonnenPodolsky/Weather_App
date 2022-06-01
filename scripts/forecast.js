@@ -19,16 +19,3 @@ const getCity = async (city) => {
 
     return data[0];
 }
-
-
-
-// getCity('madrid').then(data =>{
-//     return getWeather(data.Key);
-// }).then(data => {
-//     console.log(data)
-// })
-//     .catch(err => console.log(err))
-
-
-
-
