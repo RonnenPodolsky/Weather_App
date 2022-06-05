@@ -23,7 +23,7 @@ class Forecast{
         return data[0];
     }
 
-    async getWeater(location_id){
+    async getWeather(location_id){
         const query = `${location_id}?apikey=${this.key}`;
     
         const response = await fetch(this.weatherURI+query);
