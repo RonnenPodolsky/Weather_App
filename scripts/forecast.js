@@ -13,7 +13,6 @@ class Forecast{
             weather
         };
     }
-
     async getCity(city){
         const query = `?apikey=${this.key}&q=${city}`;
         
@@ -22,7 +21,6 @@ class Forecast{
     
         return data[0];
     }
-
     async getWeather(location_id){
         const query = `${location_id}?apikey=${this.key}`;
     
